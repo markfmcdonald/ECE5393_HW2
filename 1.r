@@ -22,10 +22,10 @@ B 1 IV 1 : V 3 : 1000
 R 2 : IR 1 : 1
 IR 1 : R 2 : 1000
 V 1 IR 1 : R 3 : 1000
-W 1 G 1 : X 1 G 1 : 1000
-X 1 V 1 : Y 1 V 1 : 1000
-Y 1 G 1 : Z 1 G 1 : 1000
-Z 1 V 1 : W 1 Y 1 V 1 : 1000
+W 1 G 1 : 1st_num 1 G 1 : 1000
+1st_num 1 V 1 : 2nd_num 1 V 1 : 1000
+2nd_num 1 G 1 : Z 1 G 1 : 1000
+Z 1 V 1 : W 1 2nd_num 1 V 1 : 1000
 Pool 1 B 1 : Poolprime1 1 B 1 : 1000
 Poolprime1 2 B 1 : Poolprime2 1 Poolprime1 1 B 1 : 1000
 Poolprime2 1 R 1 : Pool 1 R 1 : 1000
