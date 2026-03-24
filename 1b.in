@@ -1,0 +1,21 @@
+R 100 N
+IR 0 N
+r 0 N 
+G 0 N
+IG 0 N
+g 0 N
+B 0 N
+IB 0 N
+b 0 N
+V 0 N
+IV 0 N
+v 0 N
+X 3 N
+Y 7 N
+Z 0 N
+W 0 N
+Pool 100 N
+Poolprime1 0 N
+Poolprime2 0 N
+Poolprime3 0 N
+Count 0 GE 12
